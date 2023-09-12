@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# gpt_jr
+# GPT Jr
 
 A new Flutter project.
 
