@@ -1,67 +1,89 @@
-# GPT Jr
+<h1 align="center" id="title">GPT Jr</h1>
 
-A new Flutter project.
+![GPT-Jr](https://socialify.git.ci/chiragdhunna/GPT-Jr/image?description=1&font=Source%20Code%20Pro&forks=1&issues=1&language=1&name=1&owner=1&pattern=Solid&pulls=1&stargazers=1&theme=Auto)
 
-## Getting Started
+<p id="description">This Flutter application combines the power of conversational AI and image generation, offering a seamless and interactive user experience. Users can interact with the app through voice commands, which are converted to text using the Flutter Speech to Text plugin. The app then utilizes the ChatGPT API to provide natural language responses, making it an ideal tool for information retrieval and conversation. Additionally, users can instruct the application to create images using the DALL·E API, adding a visually engaging dimension to the app.</p>
 
-This project is a starting point for a Flutter application.
+<h2>Demo</h2>
 
-A few resources to get you started if this is your first Flutter project:
+<video  height="240" controls>
+  <source src="demo/demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<h2>🧐 Features</h2>
 
+Here are some of the project's best features:
 
-# Flutter AI Assistant with ChatGPT and DALL·E Integration
+- 🎤 **Voice Interaction**: Use the microphone to ask questions or provide instructions, and the app will convert your speech to text for processing.
+- 🧠 **Conversational AI**: ChatGPT API powers the app's natural language understanding, enabling it to provide informative and contextually relevant responses.
+- 🖼️ **Image Generation**: Request the app to generate images based on user input using the DALL·E API, creating visual representations of concepts and ideas.
+- 💡 **Seamless User Experience**: The app combines voice recognition, language understanding, and image generation into a single, user-friendly interface.
 
-![App Demo](demo.gif)
+<h2>💻 Built with</h2>
 
-## Overview
+Technologies used in the project:
 
-This Flutter application combines the power of conversational AI and image generation, offering a seamless and interactive user experience. Users can interact with the app through voice commands, which are converted to text using the Flutter Speech to Text plugin. The app then utilizes the ChatGPT API to provide natural language responses, making it an ideal tool for information retrieval and conversation.
+### Frontend Stack
 
-In addition to text-based interactions, users can also instruct the application to create images using the DALL·E API. This integration enables on-the-fly image generation based on user input, adding a visually engaging dimension to the app.
+- [Flutter](https://flutter.dev/)
 
-## Features
+### Backend & APIs
 
-- **Voice Interaction**: Use the microphone to ask questions or provide instructions, and the app will convert your speech to text for processing.
+- [OpenAI ChatGPT API](https://beta.openai.com/)
+- [OpenAI DALL·E API](https://beta.openai.com/)
 
-- **Conversational AI**: ChatGPT API powers the app's natural language understanding, enabling it to provide informative and contextually relevant responses.
+<h2>Getting Started</h2>
 
-- **Image Generation**: Request the app to generate images based on user input using the DALL·E API, creating visual representations of concepts and ideas.
+### Prerequisites:
 
-- **Seamless User Experience**: The app combines voice recognition, language understanding, and image generation into a single, user-friendly interface.
+Before you begin, ensure you have the following software installed:
 
-## Getting Started
+- [Flutter](https://flutter.dev/docs/get-started/install)
 
-To get started with this Flutter app, follow these steps:
+### Installation:
 
-1. Clone the repository to your local machine.
+1. **Clone the repository**:
 
-2. Set up your ChatGPT and DALL·E API credentials in the `secrets.dart` file. Replace the placeholder `YOUR_API_KEY` with your actual API key.
+   ```sh
+   git clone https://github.com/yourusername/gpt-jr.git
+   ```
 
-3. Install the necessary dependencies using `flutter pub get`.
+2. **Navigate to the project directory**:
 
-4. Run the app on your preferred Flutter-compatible device or simulator.
+   ```sh
+   cd gpt-jr
+   ```
 
-## Configuration
+3. **Set up your ChatGPT and DALL·E API credentials in the `secrets.dart` file**:
 
-In the `secrets.dart` file, you can configure the API key for ChatGPT and DALL·E. Make sure to replace the placeholder `YOUR_API_KEY` with your actual API key.
+   ```dart
+   class Secrets {
+     static const openAIAPIKey = 'YOUR_OPENAI_API_KEY';
+   }
+   ```
 
-```dart
-class Secrets {
-  static const openAIAPIKey = 'YOUR_OPENAI_API_KEY';
-}
+4. **Install the necessary dependencies**:
 
-Contributing
+   ```sh
+   flutter pub get
+   ```
+
+5. **Run the app on your preferred Flutter-compatible device or simulator**:
+   ```sh
+   flutter run
+   ```
+
+<h2>Configuration</h2>
+
+In the `secrets.dart` file, you can configure the API key for ChatGPT and DALL·E. Make sure to replace the placeholder `YOUR_OPENAI_API_KEY` with your actual API key.
+
+<h2>Contributing</h2>
+
 We welcome contributions from the community! If you have ideas for improvements or new features, please open an issue or submit a pull request. See our Contributing Guidelines for more details.
 
-Acknowledgments
-Flutter: https://flutter.dev/
-OpenAI ChatGPT API: https://beta.openai.com/
-OpenAI DALL·E API: https://beta.openai.com/
+<h2>Acknowledgments</h2>
 
-
-This updated README clarifies that the API key should be configured in the `secrets.dart` file, and it provides instructions accordingly.
->>>>>>> 5df3107d7a708f43f4fc4e6904a63df39953996b
-# GPT-Jr
+- [Flutter](https://flutter.dev/)
+- [OpenAI ChatGPT API](https://beta.openai.com/)
+- [OpenAI DALL·E API](https://beta.openai.com/)
