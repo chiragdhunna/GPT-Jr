@@ -6,10 +6,11 @@
 
 <h2>Demo</h2>
 
-<video  height="240" controls>
-  <source src="demo/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+
+https://github.com/chiragdhunna/GPT-Jr/assets/76210441/fe2b4377-884d-43d2-b6b5-3b1f3a7aaf66
+
+
 
 <h2>🧐 Features</h2>
 
